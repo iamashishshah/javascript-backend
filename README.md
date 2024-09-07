@@ -10,3 +10,10 @@ check all possible data that a user can generater while intracting with your app
 
 # To model data, here are some tools...
 [mood modeler](https://www.datensen.com/) 
+
+#TODO:
+1. back again to these Schema modeling after learning controllers etc to refine them
+
+2. Follow the standard practice of code so that you don't need to cross check each time identifier name
+
+3. Read models, validation, documents, and sub documents
