@@ -31,4 +31,8 @@ npm i mongoose
 npm i dotenv
 npm i cookie-parser
 npm i cors
-
+npm i mongoose-aggregate-paginate-v2
+npm audit
+npm audit fix
+npm i bcrypt
+npm i jsonwebtoken
