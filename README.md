@@ -21,3 +21,6 @@ check all possible data that a user can generater while intracting with your app
 <h1> Database connection </h1>
 <p> How to connect database is not important, in how many ways we can do connections,
 what problems come? and how to handle them is important</p>
+
+
+## Status code:
