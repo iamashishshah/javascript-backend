@@ -36,3 +36,5 @@ npm audit
 npm audit fix
 npm i bcrypt
 npm i jsonwebtoken
+npm i cloudinary
+npm i multer // or else you can use express-fileupload
