@@ -1,0 +1,51 @@
+console.log(response): it will details of file uploaded by you
+
+File has uploaded successfully avatar
+{
+  asset_id: '3526a563e1dbf7da431a8a786c2829ac',
+  public_id: 'jiosoinq9qe5rwyzktqo',
+  version: 1726205512,
+  version_id: '23b8acb492738475927c412f5e40ee18',
+  signature: '6a61f2750f7d2bfc29a56289175bfe0198e8b492',
+  width: 540,
+  height: 360,
+  format: 'jpg',
+  resource_type: 'image',
+  created_at: '2024-09-13T05:31:52Z',
+  tags: [],
+  bytes: 31315,
+  type: 'upload',
+  etag: 'a330f95f4495c5b1808559aacb6ee3ac',
+  placeholder: false,
+  url: 'http://res.cloudinary.com/ashish-shah/image/upload/v1726205512/jiosoinq9qe5rwyzktqo.jpg',
+  secure_url: 'https://res.cloudinary.com/ashish-shah/image/upload/v1726205512/jiosoinq9qe5rwyzktqo.jpg',
+  asset_folder: '',
+  display_name: 'jiosoinq9qe5rwyzktqo',
+  original_filename: '360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e',
+  api_key: '287516124632857'
+}
+File has uploaded successfully cover image
+{
+  asset_id: 'c4f63bde8c5b2184947b51ca55bbe326',
+  public_id: 'uvqk9t5gvg7ekekjab9v',
+  version: 1726205513,
+  version_id: '1dc92ec7b9f1b6c0226eb19f725c383e',
+  signature: '7db6f1d66dabc57db9a5dfa9f74b87ebcec13b30',
+  width: 3000,
+  height: 1688,
+  format: 'jpg',
+  resource_type: 'image',
+  created_at: '2024-09-13T05:31:53Z',
+  tags: [],
+  bytes: 295092,
+  type: 'upload',
+  etag: '2934f44f8083d0cad644402c937d3036',
+  placeholder: false,
+  url: 'http://res.cloudinary.com/ashish-shah/image/upload/v1726205513/uvqk9t5gvg7ekekjab9v.jpg',
+  secure_url: 'https://res.cloudinary.com/ashish-shah/image/upload/v1726205513/uvqk9t5gvg7ekekjab9v.jpg',
+  asset_folder: '',
+  display_name: 'uvqk9t5gvg7ekekjab9v',
+  original_filename: 'premium_photo-1673177667569-e3321a8d8256',
+  original_extension: 'jpeg',
+  api_key: '287516124632857'
+}

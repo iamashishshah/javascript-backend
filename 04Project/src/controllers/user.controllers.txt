@@ -1,0 +1,59 @@
+// get user details from frontend: DONE
+    // validation - empty check, formate check: DONE
+    // check if user already exists: username, email: DONE
+    // check for image, check for avatar:
+    // upload them to clodinary, avatar
+    // create a user object - create entry in db
+    // remove password and refresh token field from response given by mongoDB, cuz it gives return everything
+    // check for user creation - created or not
+    // return res
+    // so what req.body gives us?  everything that user enters with some additional header properties
+    // console.log(fullname, email);
+    // if(!fullname) throw new ApiError(400, "Please sir provide your name, we'll not use on pornhub")
+
+    
+    // but I suppose if a user enters 3 fields and username, and i want to give msg to user that he/she should enter "username is required how can i do this?"
+
+    // how to check formatting of email that if email contains @ or not, and we'll accept only @gmail.com, @outlook.com, @apple.com
+
+
+  console.log(req.body);
+  
+  [Object: null prototype] {
+  fullname: 'Ashish Shah',
+  username: 'ashishshah',
+  email: 'a@a.com',
+  password: 'testmai'
+}
+
+console.log(req.files);
+[Object: null prototype] {
+  avatar: [
+    {
+      fieldname: 'avatar',
+      originalname: '360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg',
+      encoding: '7bit',
+      mimetype: 'image/jpeg',
+      destination: './public/temp',
+      filename: '360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg',
+      path: 'public\\temp\\360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg',
+      size: 31315
+    }
+  ],
+  coverImage: [
+    {
+      fieldname: 'coverImage',
+      originalname: 'premium_photo-1673177667569-e3321a8d8256.jpeg',
+      encoding: '7bit',
+      mimetype: 'image/jpeg',
+      destination: './public/temp',
+      filename: 'premium_photo-1673177667569-e3321a8d8256.jpeg',
+      path: 'public\\temp\\premium_photo-1673177667569-e3321a8d8256.jpeg',
+      size: 295092
+    }
+  ]
+}
+
+
+console.log(avatarLocalPath, coverImageLocalPath): It is giving me local file path where it is stored in my local machine
+public\temp\360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg public\temp\premium_photo-1673177667569-e3321a8d8256.jpeg
